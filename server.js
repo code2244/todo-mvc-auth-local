@@ -42,3 +42,5 @@ app.use('/', mainRoutes)
 app.use('/todos', todoRoutes)
  
 app.listen(process.env.PORT, ()=>{
+    console.log('We are here!')
+})    
