@@ -1,23 +1,5 @@
-* {box-sizing: border-box;
-}
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: black;
-    width: 100%;
-    border: solid #5B6DCD 10px;
-    padding: 5px;
-}
-.del{
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px;
+    color: red;
 }
 .completed{
     text-decoration: line-through;
@@ -25,19 +7,4 @@ h1{
 }
 .not{
     text-decoration: underline;
-}
-.logout{
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px;
-}
-
-li{
-    list-style: none;
 }
