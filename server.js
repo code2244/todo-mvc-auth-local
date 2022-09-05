@@ -42,13 +42,7 @@ app.use('/', mainRoutes)
 app.use('/todos', todoRoutes)
  
 app.listen(process.env.PORT, ()=>{
-<<<<<<< Updated upstream
-    console.log('We are here!')
+ console.log('We are here!')
 })    
-=======
-<<<<<<< HEAD
-=======
-    console.log('Server is running, you better catch it!')
-})    
->>>>>>> parent of 97d994e... Added css etc
->>>>>>> Stashed changes
+console.log('Server is running, you better catch it!')    
+
